@@ -33,7 +33,7 @@ public class MagicPotion {
     }
 
     public static void main(String[] args) {
-
+        System.out.println(minimalSteps("ababababba"));
         if (minimalSteps("ABCDABCE") == 8 && minimalSteps("ABCABCE") == 5 && minimalSteps("AAA") == 3
                 && minimalSteps("AAAA") == 3 && minimalSteps("BBB") == 3 && minimalSteps("AAAAAA") == 5) {
             System.out.println("Pass");
